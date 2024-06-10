@@ -1,35 +1,39 @@
 import "./Government.css";
-import Data from "../../trendstore";
+import GovernmentBusData from "../../governementBus";
 import vr_vertical from "../../assets/rb_vertical.svg";
-import star from "../../assets/star-svgrepo-com.svg"
+import star from "../../assets/star-svgrepo-com.svg";
 function Government() {
   return (
     <>
       <div className="government">
         <div className="government-top">
           <h1>GOVERNMENT BUSES </h1>
-          <button> <a href="" style={{textDecoration:"none"}}>View All</a></button>
+          <button>
+          
+            <a href="" style={{ textDecoration: "none" }}>
+              View All
+            </a>
+          </button>
         </div>
         <div className="government-bottom">
-          {Data.map((card, index) => {
+          {GovernmentBusData.map((card, index) => {
             return (
               <div className="card" key={index}>
                 <div className="img-section">
                   <img src={card.img} alt="" />
                   <div className="img-section-detail">
-                    <h1>UPSRTC</h1>
-                    <p>xkcjvkfdvnxkfjn</p>
+                    <h1>{card.name}</h1>
+                    <p>{card.native}</p>
                   </div>
                   <div className="rating">
                     <img src={star} alt="" />
-                    <p>3.71</p>
+                    <p>{card.rating}</p>
                   </div>
                 </div>
 
                 <div className="government-bottom-details">
                   <p>
-                    Valid till 01 Aug kdfvjn n dkvjnvkjdfnvjkbvjdbvmnx vxn
-                    vbjhdfvb xnm cjnv dxjnv xcnvxcnv n
+                    {card.text}
                   </p>
                   <div className="bottom-paragraph">
                     <img
@@ -37,7 +41,7 @@ function Government() {
                       alt=""
                       className="government-bottom-details-img"
                     />
-                    <h4>{card.category}</h4>
+                    <h4>Official booking partner of    {card.name}</h4>
                   </div>
                 </div>
               </div>
