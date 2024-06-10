@@ -54,6 +54,17 @@
   position: relative;
 }
 
+.hero-content > .arrow_up{
+padding: 5px;
+position: fixed;
+left: 92%;
+top: 91.5%;
+background: rgba(128, 128, 128, 0.638);
+opacity: 80%;
+border-radius: 10px;
+}
+
+
 .hero-content h1:nth-child(2) {
   color: white;
   font-weight: bolder;

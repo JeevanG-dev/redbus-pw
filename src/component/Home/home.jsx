@@ -10,8 +10,8 @@ import Partner from "../PartneredBrand/partner";
 import Train from "../TrainTicket/train";
 import { useState } from "react";
 import Government from "../GovernmentBus/government";
-import Footer from "../Footer/footer"
-
+import Footer from "../Footer/footer";
+import arrow_up from "../../assets/arrow up.png";
 import App from "../app/app";
 
 function Home() {
@@ -19,10 +19,10 @@ function Home() {
 
   return (
     <>
-      <div className="home">
+      <div className="home" id="top">
         <Navbar></Navbar>
         <div className="hero">
-          <div className="hero-content">
+          <div className="hero-content" >
             <div
               className="absolute-button"
               onClick={() => {
@@ -68,6 +68,11 @@ function Home() {
               <button style={{ color: "white" }}>Search Buses</button>
             </form>
             <h1>Apno ko, Sapno Ko Kareeb Laaye</h1>
+            <a className="arrow_up" href="#top">
+              <div>
+                <img src={arrow_up} alt="" />
+              </div>
+            </a>
           </div>
           <Trending></Trending>
         </div>
@@ -77,7 +82,7 @@ function Home() {
         <Partner></Partner>
         <Flag></Flag>
 
-      <Footer></Footer>
+        <Footer></Footer>
       </div>
     </>
   );
