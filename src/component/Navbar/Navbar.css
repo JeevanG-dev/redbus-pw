@@ -34,7 +34,9 @@
   border-radius: 0.4rem;
   background: rgb(205, 66, 66);
   color: white;
+  cursor: pointer;
 }
+
 
 .red-logo img {
   margin-left: 1.8rem;
@@ -55,7 +57,7 @@
   width: 6rem;
   padding: 1rem 0.5rem;
   border-radius: 0.4rem;
-
+  cursor: pointer;
   color: black;
 }
 
@@ -70,6 +72,7 @@ button {
   display: flex;
   flex-direction: row;
   gap: 5px;
+  cursor: pointer;
   border-radius: 4px;
   align-items: center;
 }

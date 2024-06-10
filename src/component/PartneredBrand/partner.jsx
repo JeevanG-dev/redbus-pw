@@ -81,12 +81,16 @@ function Partner() {
                     <li>Insurance</li>
                 </ul>
                 <div className="accordion">
-                    <div>
+          
+                  <div>
                         <p>
                             What are the advantages of purchasing a bus ticket with redBus?
                         </p>
                         <img src={plus}alt="plus"/>
                     </div>
+                   
+                
+                   
                     <div>
                         <p>
                             Do I need to register to use redBus?
