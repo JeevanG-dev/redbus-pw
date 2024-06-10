@@ -17,7 +17,7 @@ function Government() {
                 <div className="img-section">
                   <img src={card.img} alt="" />
                   <div className="img-section-detail">
-                    <h1>TSCHP</h1>
+                    <h1>UPSRTC</h1>
                     <p>xkcjvkfdvnxkfjn</p>
                   </div>
                   <div className="rating">
