@@ -1,0 +1,110 @@
+.app1 {
+  margin: 7rem auto 0 auto;
+  width: 80%;
+
+  background-image: url(../../assets/appInstallbg.svg);
+  background-position: center;
+  background-size: cover;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+}
+.bottom-section .first .first-text {
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.484);
+  gap: 10px;
+  margin: 1.5rem 0;
+}
+
+.top-text {
+  color: white;
+  margin: 1.5rem 0 1rem 1.2rem;
+  letter-spacing: 5px;
+}
+
+.first-bottom {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.first {
+  width: 20rem;
+  height: 15rem;
+  padding: 1rem 1.5rem;
+  border-radius: 16px;
+  background: white;
+  margin-left: 1rem;
+}
+
+.first-bottom-rating .rating img {
+  width: 1rem;
+}
+.first-bottom-rating p {
+  margin: 0.2rem 0;
+}
+
+.first-bottom .line {
+  height: 4rem;
+  background: #000;
+  width: 1px;
+}
+.rating {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  color: rgb(93, 92, 92);
+  font-size: 1.5rem;
+}
+
+.bottom-section {
+  display: flex;
+  gap: 8rem;
+  align-items: center;
+  margin-top: 2.3rem;
+}
+
+.bottom-section .second,
+.third {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.bottom-section .second img,
+.third img {
+  width: 8rem;
+  margin: 1rem 0;
+}
+
+.app2 {
+  width: 85%;
+  margin: 7rem auto 0 auto;
+}
+
+.app2 .app2-card {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: white;
+
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(90deg, rgb(80, 80, 240), rgb(121, 28, 121));
+}
+
+.app2-card .app2-card-right .app2-card-right-h2,
+.app2-card-right-p {
+  width: 10rem;
+}
+
+.app2 .app2-promo-img {
+  margin: 0 auto 2rem auto;
+  width: max-content;
+}
+
+.app2-card-gallery {
+  display: flex;
+  justify-content: space-around;
+}

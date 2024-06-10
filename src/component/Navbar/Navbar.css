@@ -1,0 +1,82 @@
+.container {
+  width: 100vw;
+  top: 0;
+  background: white;
+  height: 7rem;
+  position: fixed;
+  z-index: 1;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ margin: 1rem 11% 0 9%;
+
+}
+
+.nav-left {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.nav-middle {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.red-logo {
+  width: 6rem;
+  padding: 1rem 0.5rem;
+  border-radius: 0.4rem;
+  background: rgb(205, 66, 66);
+  color: white;
+}
+
+.red-logo img {
+  margin-left: 1.8rem;
+  filter: brightness(10);
+}
+
+.red-logo p,
+.white-logo p {
+  text-align: center;
+}
+
+.white-logo img {
+  filter: brightness(0);
+  margin-left: 1.8rem;
+}
+
+.white-logo {
+  width: 6rem;
+  padding: 1rem 0.5rem;
+  border-radius: 0.4rem;
+
+  color: black;
+}
+
+.nav-right {
+  display: flex;
+  gap: 3rem;
+}
+
+button {
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.nav-right button img {
+  width: 2rem;
+}
+
+button:hover {
+  background: rgba(128, 128, 128, 0.154);
+}

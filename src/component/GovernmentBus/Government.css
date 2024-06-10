@@ -1,0 +1,109 @@
+.government {
+  width: 80%;
+  margin: 21.5rem auto 0 auto;
+  border: 1px solid white;
+  background: white;
+  border-radius: 2rem;
+  padding-bottom: 3rem;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.061);
+}
+
+.government .government-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  letter-spacing: 5px;
+  margin: 2rem 0 1rem 0;
+}
+.government button {
+  border: 1px solid rgba(0, 0, 0, 0.333);
+  color: blue;
+  letter-spacing: 2px;
+  font-size: larger;
+  padding: 0.7rem 1.5rem;
+  border-radius: 3rem;
+}
+
+.government-bottom {
+  display: flex;
+  gap: 2rem;
+  overflow: scroll;
+  scrollbar-width: none;
+  padding: 0 1rem;
+  scroll-behavior: smooth;
+}
+
+.government-bottom .card {
+  gap: 1rem;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.221);
+  height: 15rem;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.card .img-section {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.118);
+  align-items: center;
+  padding-bottom: 10px;
+}
+.card .img-section img{
+  width: 4rem !important;
+  height: 4rem !important;
+}
+.img-section .rating{
+    display: flex;
+align-self: self-start;
+    background: green;
+    padding: 0.2rem 0.3rem;
+    margin-top: 11px;
+    border-radius: 4px;
+    color: white;
+    font-size: smaller;
+}
+
+.img-section .rating img{
+    width: 0.6rem !important;
+    height: 0.6rem !important;
+    filter:brightness(400%) !important;
+}
+
+
+
+.government-bottom .card img {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+}
+
+.card .government-bottom-details {
+  width: 26rem;
+  text-align: center;
+
+}
+
+.government-bottom-details p{
+    margin: 2rem 0 1rem 0;
+}
+.bottom-paragraph {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+  border-radius: 5px;
+  background: rgb(232, 226, 226);
+  padding: 4px 0;
+  font-size: small;
+ 
+}
+.government-bottom-details-img {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+
+}

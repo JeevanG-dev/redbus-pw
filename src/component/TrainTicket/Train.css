@@ -1,0 +1,54 @@
+.train-section {
+  width: 80%;
+  margin: 7rem auto 0 auto;
+  display: flex;
+ justify-content: space-between;
+}
+.right img {
+  width: 40rem;
+}
+
+.train-section .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.train-section .left .left-top h1 {
+  font-weight: lighter;
+
+  font-size: 3rem;
+}
+.left-middle {
+  display: flex;
+  color: red;
+  border-bottom: 2px solid red;
+  padding: 0 0 1rem 0;
+  width: 12rem;
+}
+.train-section .left .left-last h4 {
+  color: rgba(0, 0, 0, 0.637);
+  font-weight: lighter;
+  margin-bottom: 4.5rem;
+}
+.train-section .left .left-last ul {
+  margin-bottom: 3rem;
+}
+.train-section .left .left-last ul li {
+  list-style: georgian;
+  font-weight: bolder;
+  margin: 1rem 0 1rem 1rem;
+}
+
+.train-section .left .left-last button {
+  display: flex;
+  background: rgb(194, 68, 68);
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+.train-section .left .left-last button img {
+  width: 1.2rem;
+}

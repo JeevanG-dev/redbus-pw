@@ -1,0 +1,87 @@
+.hero {
+  background-image: url(../../assets/rtc-banner-gi.gif);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  margin: 5rem 0 1rem 0;
+  border: 1px solid white;
+}
+
+.hero form {
+  display: flex;
+  margin: 3rem 0 1rem;
+}
+
+.hero form div {
+  border-right: 1px solid rgba(0, 0, 0, 0.559);
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 5px 2rem;
+}
+
+.hero form div img {
+  width: 1.5rem;
+  margin-right: 1rem;
+}
+
+.hero form div input {
+  width: 6rem;
+  height: 6rem;
+  border: none;
+}
+.hero form .input1 {
+  border-radius: 2rem 0 0 2rem;
+}
+
+.hero-content form button {
+  height: 7rem;
+  border: none;
+
+  font-size: 2rem;
+  box-shadow: 5px 2px 20px rgba(0, 0, 0, 0.24);
+  background: rgb(194, 69, 69);
+
+  padding: 0 3.5rem;
+  border-radius: 0 2rem 2rem 0;
+  cursor: pointer;
+}
+
+.hero-content {
+  width: max-content;
+  margin: 14% auto 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.hero-content h1:nth-child(2) {
+  color: white;
+  font-weight: bolder;
+
+  letter-spacing: 1px;
+}
+.hero-content h1:nth-child(4) {
+  color: #d6951b;
+  letter-spacing: 1px;
+}
+
+.absolute-button {
+  background: white;
+  width: max-content;
+  border-radius: 50%;
+  padding: 1rem;
+  position: absolute;
+  top: 7.5rem;
+  left: 11rem;
+  border: 1px solid rgba(0, 0, 0, 0.216);
+  cursor: pointer;
+}
+
+.absolute-button img {
+  width: 1rem;
+  opacity: 50%;
+ 
+}
+.absolute-button:hover {
+  box-shadow: 5px 2px 20px rgba(0, 0, 0, 0.24);
+}

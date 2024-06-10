@@ -1,0 +1,16 @@
+.flag-section{
+    width: 80%;
+    margin: 6% auto 0 auto;
+}
+
+.flag-section .flag-section-gallery{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6%;
+}
+
+.flag-section .flag-section-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
