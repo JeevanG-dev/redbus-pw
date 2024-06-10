@@ -23,14 +23,15 @@ function Government() {
                   <img src={card.img} alt="" />
                   <div className="img-section-detail">
                     <h1>{card.name}</h1>
-                    <p>{card.native}</p>
                   </div>
                   <div className="rating">
                     <img src={star} alt="" />
                     <p>{card.rating}</p>
                   </div>
+                 
                 </div>
-
+                <p className="native">{card.native}</p>
+      <hr />
                 <div className="government-bottom-details">
                   <p>
                     {card.text}

@@ -24,6 +24,7 @@
   border-radius: 3rem;
 }
 
+
 .government-bottom {
   display: flex;
   gap: 2rem;
@@ -49,32 +50,34 @@
   display: flex;
   flex-direction: row;
   gap: 5px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.118);
   align-items: center;
   padding-bottom: 10px;
 }
-.card .img-section img{
+.card .img-section img {
   width: 4rem !important;
   height: 4rem !important;
 }
-.img-section .rating{
-    display: flex;
-align-self: self-start;
-    background: green;
-    padding: 0.2rem 0.3rem;
-    margin-top: 11px;
-    border-radius: 4px;
-    color: white;
-    font-size: smaller;
+
+.card > .native{
+  text-align: center;
+}
+.img-section .rating {
+  display: flex;
+  align-self: self-start;
+  background: green;
+  padding: 0.2rem 0.3rem;
+  margin: 12px 0 0 4px;
+  border-radius: 4px;
+  color: white;
+  font-size: smaller;
+
 }
 
-.img-section .rating img{
-    width: 0.6rem !important;
-    height: 0.6rem !important;
-    filter:brightness(400%) !important;
+.img-section .rating img {
+  width: 0.6rem !important;
+  height: 0.6rem !important;
+  filter: brightness(400%) !important;
 }
-
-
 
 .government-bottom .card img {
   border-radius: 50%;
@@ -85,25 +88,24 @@ align-self: self-start;
 .card .government-bottom-details {
   width: 26rem;
   text-align: center;
-
 }
 
-.government-bottom-details p{
-    margin: 2rem 0 1rem 0;
+.government-bottom-details p {
+  margin: 2rem 0 1rem 0;
+
+  height: 3rem;
 }
 .bottom-paragraph {
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
   border-radius: 5px;
   background: rgb(232, 226, 226);
   padding: 4px 0;
   font-size: small;
- 
 }
 .government-bottom-details-img {
   width: 1.5rem !important;
   height: 1.5rem !important;
-
 }
