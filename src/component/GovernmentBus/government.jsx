@@ -13,8 +13,7 @@ function Government() {
             <a href="" style={{ textDecoration: "none" }}>
               View All
             </a>
-          </button>
-        </div>
+          </button> </div>
         <div className="government-bottom">
           {GovernmentBusData.map((card, index) => {
             return (
