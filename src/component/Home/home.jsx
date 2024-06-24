@@ -19,7 +19,7 @@ function Home() {
 const arrow = useRef();
   useEffect(()=>{
     window.addEventListener("scroll",()=>{
-if(window.scrollY >=800){
+if(window.scrollY > 800){
   arrow.current.classList.add("visible");
 }
 else{
