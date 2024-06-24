@@ -55,13 +55,28 @@
 }
 
 .hero-content > .arrow_up{
-padding: 5px;
+padding: 10px;
 position: fixed;
 left: 92%;
 top: 91.5%;
-background: rgba(128, 128, 128, 0.638);
+background: rgba(128, 128, 128, 0.312);
+backdrop-filter: blur(80px);
 opacity: 80%;
-border-radius: 10px;
+width: 2rem ;
+height: 2rem;
+border-radius: 50%;
+display: none;
+transition: all 0.3s ease-in-out;
+}
+
+.hero-content > .arrow_up div > img{
+  height: 22px;
+  width: 20px;
+}
+
+.hero-content > .visible{
+  display: block;
+  transition: all 0.3s ease-in-out;
 }
 
 

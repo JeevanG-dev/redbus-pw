@@ -8,7 +8,7 @@ import input_change_logo from "../../assets/change.png";
 import Flag from "../Flag/flag";
 import Partner from "../PartneredBrand/partner";
 import Train from "../TrainTicket/train";
-import { useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Government from "../GovernmentBus/government";
 import Footer from "../Footer/footer";
 import arrow_up from "../../assets/arrow up.png";
@@ -16,6 +16,17 @@ import App from "../app/app";
 
 function Home() {
   const [logo, setLogo] = useState("logo");
+const arrow = useRef();
+  useEffect(()=>{
+    window.addEventListener("scroll",()=>{
+if(window.scrollY >=800){
+  arrow.current.classList.add("visible");
+}
+else{
+  arrow.current.classList.remove("visible");
+}
+    })
+ },[])
 
   return (
     <>
@@ -68,7 +79,7 @@ function Home() {
               <button style={{ color: "white" }}>Search Buses</button>
             </form>
             <h1>Apno ko, Sapno Ko Kareeb Laaye</h1>
-            <a className="arrow_up" href="#top">
+            <a ref={arrow} className="arrow_up visible" href="#top">
               <div>
                 <img src={arrow_up} alt="" />
               </div>
